@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+background: rgb(195,34,137);
+background: linear-gradient(0deg, rgba(195,34,137,1) 8%, rgba(182,45,253,1) 81%);
+	font-family: Berlin Sans FB;
+}
+
+h1{
+
+text-align: center;
+font-size: 60px;
+margin: 15px 0px 30px;
+color: #7d3c98;
+text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.content{
+	width: 90%;
+	max-width: 910px;
+	margin: auto;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.table{
+	width: 100px;
+	height: 650px;
+	margin: auto;
+	border: 3px solid #5b2c6f;
+	padding: 60px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 4px 0px #af7ac5;
+	text-align: center;
+	flex-grow: 1;
+	color: black;
+	text-shadow: 3px 3px 5px #af7ac5;
+}
+.table>h2 {
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+.table>img{
+	width: 200px;
+	margin-bottom: 35px;
+	border-radius: 15px;
+}
+.table>h3{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.table>sup{
+	font-size: 20px;
+}
+.table>p{
+	font-size: 20px;
+}
+.boton{
+	display: inline-block;
+	width: 100%;
+	padding: 11px;
+	background: #b353ea;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius: 50px;
+}
+.btn_link{
+	display: inline-block;
+	padding: 20px 20px;
+	border-radius: 100px;
+	background: #fdfefe;
+	margin-right:14px ;
+	text-decoration: none;
+text-shadow: 0 0 3px #af7ac5, 0 0 5px #ffffff;
+}
+.table:hover{
+	background: mediumpurple;
+	transition: 0.5s all;
+	transform: scale(1.1);
+	cursor: pointer;
+}
